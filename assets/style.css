@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
 * {
-  color:#FF0000;
+    color:#c0c0c0;
+    background-color: #7D7C7C;
+  }
+    body,
+input,
+textarea,
+button{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400;
 }
