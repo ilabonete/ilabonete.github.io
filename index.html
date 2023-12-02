@@ -1,42 +1,148 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/style.css">
+
+        <title>Jorge Portfolio</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./assets/style.css">
+
 </head>
 <body>
-    <section id="activities">
-    <h2>Activities</h2>
-    <table>
-        <tr>
-            <th>Date</th>
-            <th>Name of Activity</th>
-            <th>Status</th>
-        </tr>
-        <tr>
-            <td>17/09/23</td>
-            <td><a href="./Activity/Act 1.1_Fashion Blog.html">Fashion Blog</a></td>
-            <td>Complete</td>
-        </tr>
-		<tr>
-            <td>17/09/23</td>
-            <td><a href="./Activity/Act 1.2_Wine Festival.html">Wine Festival</a></td>
-            <td>Complete</td>
-        </tr>
-		<tr>
-            <td>17/09/23</td>
-            <td><a href="./Activity/Act 2.1_Davies Burger.html">Davies Burger </a></td>
-            <td>Complete</td>
-        </tr>
-		<tr>
-            <td>18/09/23</td>
-            <td><a href="./wireframe/index.html">Wireframe </a></td>
-            <td>Complete</td>
-        </tr>
-    </table>
-</section>
+        <a id="scroll-btn" href="#sec-2"></a>
+        <header class="header">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <section id = "sec-1">
 
-</body>
+                    <section id="sec-1">
+                    <div class="nav-toggle">
+                        <span></span>
+                    </div>
+                    <nav class="nav">
+                        <ul>
+                            <li><a href="#sec-1">Home</a></li>
+                            <li><a href="#about">About Me</a></li>
+                            <li><a href="#sec-2">Projects</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <section class="home-section" id="home">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="home-content">
+                        <h4>I'm Jorge Benedict P. Capangpangan</h4>
+                        <h1>This is my Portfolio</h1>
+                    </div>
+                </div>
+            </div> 
+        </section>
+        
+        <!-- About Me Section Starts Here -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="row align-items-center">
+                </div>
+            </div>
+        </section>
+        <!-- About Me Section Ends Here -->
+
+        <section id="sec-2"></section>   
+        <div class="container">
+            <svg viewBox="0 0 960 300">
+              <symbol id="s-text">
+                <text text-anchor="middle" x="50%" y="80%">"Projects"</text>
+              </symbol>
+          
+              <g class="g-ants">
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+              </g>
+            </svg>
+          </div>
+            <div class="parallax_section">
+                <div class="parallax_bg" style="background-image: url(https://www.colorbook.io/imagecreator.php?hex=ffeaed&width=1920&height=1080&text=%201920x1080);"></div>
+                    
+                        <div class="container">
+                            <div class="Photo">
+                                <div class="Photo-item">
+                                    <a href="./Activity/Act 1.1_Fashion Blog.html" target="_blank">
+                                        <img src="https://images.pexels.com/photos/135620/pexels-photo-135620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Project 1" ,>
+                                    </a>
+                                    <p>Fashion Blog</p>
+                                </div>
+                                <div class="Photo-item">
+                                    <a href="./Activity/Act 1.2_Wine Festival.html" target="_blank">
+                                        <img src="https://images.pexels.com/photos/787961/pexels-photo-787961.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Project 2">
+                                    </a>
+                                    <p>WineFestivalSchedule</p>
+                                </div>
+                                <div class="Photo-item">
+                                    <a href="./Activity/Act 2.1_Davies Burger.html" target="_blank">
+                                        <img src="https://images.pexels.com/photos/5908060/pexels-photo-5908060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Project 3">
+                                    </a>
+                                    <p>DaviesBurger </p>
+                                </div>
+                                <div class="Photo-item">
+                                    <a href="./wireframe/index.html" target="_blank">
+                                        <img src="https://assets.justinmind.com/wp-content/uploads/2019/04/what-are-wireframes-for-websites.png" alt="Project 3">
+                                    </a>
+                                    <p>WireFrames</p>  
+                                </div>
+                                <div class="Photo-item">
+                                    <a href="./Activities/PrelimExam/index.html" target="_blank">
+                                        <img src="https://images.pexels.com/photos/18290411/pexels-photo-18290411/free-photo-of-a-patio-of-a-restaurant-decorated-with-pictures-of-people.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Project 3">
+                                    </a>
+                                    <p>Prelim Exam </p>
+                                </div>
+                                <div class="Photo-item">
+                                    <a href="#blank" target="_blank">
+                                        <img src="learncss.png" alt="Project 3">
+                                    </a>
+                                    <p>Learncss </p>
+                                </div>
+                                <div class="Photo-item">
+                                    <a href="#blank" target="_blank">
+                                        <img src="Learnyouhtml.jpg" alt="Project 3">
+                                    </a>
+                                    <p>LearnHTML</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div></div>
+                    </div>
+            </div>
+            <div class="parallax_section">
+                <div class="parallax_bg" style="background-image: url();"></div>
+                <div class="about-content">
+                    <h2 class ="we">About Me</h2>
+                    <img class="nawng" src="https://scontent.fceb1-1.fna.fbcdn.net/v/t39.30808-6/233074866_2749933345308566_1088587200400670462_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeF_-iTWvlBrGnSjVYmddkTLrOXOstLFw1Ws5c6y0sXDVUv7F-qMmRM3IarP0YO7uMtoHFWVk8RugmZf6XQV2a02&_nc_ohc=8p202YvdP-AAX_i3Yh2&_nc_ht=scontent.fceb1-1.fna&oh=00_AfBwWScY136KK65q_hrhbcvqyeNDeW2h8qAvOCWL9nxCfg&oe=6512B325">;
+                    <p class="we2">
+
+                        
+                        
+                        My name is Jorge     Benedict P. Capangpangan, a 19-year-old with a passion for learning and a zest for life, calls the vibrant city of Digos, Davao Del Sur, home. Having graduated from the esteemed University Of Immaculate Conception, I have not only gained academic knowledge but also developed a range of practical skills that will undoubtedly serve me well in my future endeavors.
+                        
+                        During my time at the University Of Immaculate Conception, I distinguished myself as a dedicated and motivated student. I actively participated in various academic and extracurricular activities, showcasing my commitment to personal growth and community engagement. My time at the university was not only about excelling in academics but also about forging meaningful connections and contributing positively to the campus environment.
+                        
+                        My experiences have not only shaped me academically but have also instilled in me a sense of purpose and a drive to make a difference in my community. With a keen eye for detail and a creative spirit, I have a natural talent for various pursuits. I'm particularly passionate about basketball, where I've honed my skills through years of dedicated practice. My commitment to the sport has not only led to personal growth but also allowed me to actively contribute to local basketball communities.
+                        
+                        As I embark on the next chapter of my journey, I am poised to bring my unique blend of skills, determination, and passion to new challenges and endeavors. With a strong foundation from the University Of Immaculate Conception and a bright future ahead, there's no doubt that I have a promising path ahead of me.</p>
+                </div>
+
+                    </div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
+index.html
+9 KB
